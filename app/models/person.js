@@ -14,5 +14,6 @@ export default DS.Model.extend(EmberValidations.Mixin, {
     }
   },
 
-  name: DS.attr('string')
+  name: DS.attr('string'),
+  age: DS.attr('number')
 });
